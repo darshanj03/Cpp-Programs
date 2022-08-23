@@ -1,0 +1,10 @@
+{
+    "name": "Darshan",
+    "age": 30,
+    "isProgrammer": true,
+    "skills": ["html", "css", "js"],
+    "address": {
+        "city": "Mandya",
+        "state": "Karnataka"
+    }
+}

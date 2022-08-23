@@ -1,0 +1,1 @@
+total = person2.addWeight(person1);

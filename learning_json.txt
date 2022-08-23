@@ -1,0 +1,75 @@
+JSON
+ - stands for JavaScript Object Notation.
+ - it is an extension of "JavaScript Objects".
+ - it is a data representation format.
+ - popular for its "self-describing" property.
+ - Data is stored as key-value pairs. {"key":"value}.
+ - Objects are comma separated: {"key1":"val1", "key2":"val2"}.
+ - JSON is data-only format and it doesn't have comments. 
+
+ - in javascript objects, we can skip double quotes for keys and value can have single/double quotes, but in json both keys and values must have double quotes.
+  var j_obj = {name:"Darshan"} //valid in js but invalid in json
+
+  - to convert js object to JSON: JSON.stringify(js_object_name)
+  - to convert JSON to js object: JSON.parse(json_name)
+
+ - why json over js objects?
+
+
+ JSON DATA TYPES 
+  - string: "hello world"
+  - numbers: 12, 8.5, -34, 1.5e10.
+  - boolean: true false 
+  - arrays: [1,2,3] ["html", "css", "javascript"]
+  - objects: {"key":"value", "key":"value"}
+  - null: empty 
+
+JSON RULES 
+ - ends with .json 
+ - data is represented in key-value pairs.
+ - key and values MUST be enclosed within double quotes.
+ - value should be a valid JSON supported data-type 
+ - data is separated by commas.
+ - { } holds objects and [ ] holds arrays
+ 
+ Example:
+ {
+    "name": "Darshan",
+    "age": 20,
+    "isProgrammer": true,
+    "skills": ["html", "css", "javascript"]
+    "address": {
+        "city": "Mandya",
+        "State": "Karnataka"
+    }
+ }
+
+ ACCESSING DATA
+
+ var user = {
+    "name": "Darshan",
+    "age": 30,
+    "isProgrammer": true,
+    "skills": ["html", "css", "js"],
+    "address": {
+        "city": "Mandya",
+        "state": "Karnataka"
+    }
+};
+
+user.name //outputs Darshan
+user.age //outputs 30
+user.skills[0] //outputs html
+user.address.city //outputs Mandya 
+
+USES 
+- helps to transfer data from a server 
+- allows to perform asynchronous data calls (AJAX)
+- supported by most of the programming language 
+- JSON is mostly used by APIs.
+
+
+
+ 
+
+
